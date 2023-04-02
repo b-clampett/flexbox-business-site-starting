@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.2rem;
+  letter-spacing: 2.5px ;
+  font-weight: bold;
+}
+
+header {
+  position: fixed;
+  z-index: 10;    
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  letter-spacing: 2.5px ;
+}
+
+header .content {
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-top: 2.1875rem;
+  margin-bottom: 1.5625rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+  font-size: 1.5rem;
+  list-style: none;
+  width: 100%;
+}
+
+nav li {
+  padding: 1.25rem;
+}
+
+nav a {
+ color: black;
+}
+
+.main-content {
+  position: relative;
+  top: 12.5rem;
+}
+
+#mission-statement-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/skyscrapers.jpg");
+  height: 20.9375rem;
+}
+
+.inner-container {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+
+}
+
+.inner-container h2 {
+  margin-bottom: 25px;
+}
+
+.inner-container h4 {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+}
+
+#portfolio-section {
+  margin-top: 5rem;
+}
+.photo-section {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+}
+
+.image-container img {
+  height: 125px;
+  width: 200px;
+  margin: 10px 20px;
+  
+}
+
+.image-container h4 {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+}
+
+.banner-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  background-image: url("../images/blurred-road.jpg");
+  color: white;
+}
+
+.image-container-2 {
+  
+  width: 210px;
+  margin: 0px 40px;
+}
+.image-container-2 img {
+  height: 300px;
+  width: 200px;
+  margin: 10px;
+}
+
+.image-container-2 h3 {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  font-weight: 1000;
+  margin-bottom: 20px;
+}
+
+.image-container-2 h4 {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+footer {
+  line-height: 3rem;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+footer h2 {
+  line-height: 1.2rem;
+  margin: 20px;
+}
+
+.copyright {
+  margin: 50px;
+}
